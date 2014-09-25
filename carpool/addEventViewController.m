@@ -32,7 +32,8 @@
     NSLog(@"Start to load attEventView with type %@",_eventType);
     
     
-    _phoneNumber=[[NSUserDefaults standardUserDefaults]stringForKey:@"phoneNumber"];sdardUserDefaults]stringForKey:@"username"];
+    _phoneNumber=[[NSUserDefaults standardUserDefaults]stringForKey:@"phoneNumber"];
+    _userName=[[NSUserDefaults standardUserDefaults]stringForKey:@"username"];
     _accountType=[[NSUserDefaults standardUserDefaults]stringForKey:@"accountType"];
     
     if ([_accountType isEqualToString:@"passenger"]) {
